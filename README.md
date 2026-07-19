@@ -4,7 +4,7 @@ An empirical investigation into if well-known calendar anomalies produce statist
 
 ## Overview
 
-This project examines four calendar effects using daily returns from the **FTSE 100** and **S&P 500**:
+This project examines four calendar effects using daily returns from the FTSE 100 and S&P 500:
 
 - 🎄 January Effect
 - 🎃 Halloween Effect ("Sell in May and Go Away")
@@ -15,11 +15,11 @@ The study evaluates whether these anomalies remain detectable in modern financia
 
 ## Methodology
 
-- Downloaded historical market data from **Yahoo Finance**
+- Downloaded historical market data from *Yahoo Finance
 - Calculated daily logarithmic returns
 - Constructed calendar dummy variables
 - Estimated Ordinary Least Squares (OLS) regression models
-- Applied **Newey-West (HAC)** standard errors to account for heteroskedasticity and autocorrelation
+- Applied Newey-West (HAC) standard errors to account for heteroskedasticity and autocorrelation
 - Compared results across:
   - FTSE 100 vs S&P 500
   - Pre-2008 vs Post-2008 samples
